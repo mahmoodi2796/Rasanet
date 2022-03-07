@@ -76,8 +76,7 @@ const MainOne = () => {
                         </li>
                         <li className="">-طراح و گرافیست</li>
                         <li className="">-تصویر بردار</li>
-                        <li className="">-تصویر ساز تدوینگر</li>
-                        <li className="">-ماکت ساز</li>
+                        <li className="">-تصویر ساز</li>
                       </ul>
                       <div className="ml-[20px]">
                         <Image
