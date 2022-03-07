@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className=" w-full h-[500px] relative mt-[200px] overflow-hidden">
+    <div className=" w-full h-[500px] relative  overflow-hidden">
       <svg
         className="absolute h-full   bottom-0 -z-10 overflow-hidden"
         xmlns="http://www.w3.org/2000/svg"
