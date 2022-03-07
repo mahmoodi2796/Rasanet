@@ -1,42 +1,46 @@
 import React from "react";
 import Image from "next/image";
-import profile from "../../../public/images/profile.jpeg";
 import Marquee from "react-fast-marquee";
 const carts = [
   {
     id: 0,
-    profile: "/images/instagram.png",
+    profile: "/images/profile.jpeg",
     idIntagram: "mahmoodi2795",
+    type: "/images/instagram.png",
     coment:
-      " سلام خسته نباشید کلیپتون واقعا ریبا بود سپاس بابت زحماتتون خداقوت",
+      " سلام خسته نباشید کلیپتون واقعا ریبا بود سپاس بابت زحماتتون خداقوت🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻",
   },
   {
     id: 1,
-    profile: "/images/instagram.png",
-    idIntagram: "mahmoodi2795",
-    coment:
-      " سلام خسته نباشید کلیپتون واقعا ریبا بود سپاس بابت زحماتتون خداقوت",
+    profile: "/images/profileOne.jpeg",
+    idIntagram: "reza_mombeyni.5173",
+    type: "/images/instagram.png",
+
+    coment: " عالی عالی واقعا کارتون درسته🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻🙏🏻",
   },
   {
     id: 2,
-    profile: "/images/instagram.png",
-    idIntagram: "mahmoodi2795",
-    coment:
-      " سلام خسته نباشید کلیپتون واقعا ریبا بود سپاس بابت زحماتتون خداقوت",
+    profile: "/images/profileTwo.jpeg",
+    idIntagram: "mahmoudi7843",
+    type: "/images/instagram.png",
+
+    coment: "بسیار زیبا🌹🌹🌹🌹🌹🌹🌹",
   },
   {
     id: 2,
-    profile: "/images/instagram.png",
-    idIntagram: "mahmoodi2795",
-    coment:
-      " سلام خسته نباشید کلیپتون واقعا ریبا بود سپاس بابت زحماتتون خداقوت",
+    profile: "/images/profileThree.jpeg",
+    idIntagram: "_zynb_lb",
+    type: "/images/instagram.png",
+
+    coment: " خیلی خوجله😍😍",
   },
   {
     id: 2,
-    profile: "/images/instagram.png",
+    profile: "/images/profileFour.jpeg",
     idIntagram: "mahmoodi2795",
-    coment:
-      " سلام خسته نباشید کلیپتون واقعا ریبا بود سپاس بابت زحماتتون خداقوت",
+    type: "/images/instagram.png",
+
+    coment: " oh my god 👏🏾👏🏾👏🏾",
   },
 ];
 
@@ -56,17 +60,17 @@ function Media() {
               </div>
 
               <Image
-                className="rounded-[50px]"
-                src={cart.profile}
+                className=""
+                src={cart.type}
                 alt="Picture of the author"
-                width={35}
-                height={35}
+                width={32}
+                height={32}
               />
             </div>
             <div className="w-[100px] h-[100px] rounded-[50px] absolute left-[100px] md:left-[185px] top-[-35px] border-4 border-[#e7406d] ">
               <Image
                 className="rounded-[50px]"
-                src={profile}
+                src={cart.profile}
                 alt="Picture of the author"
                 width={500}
                 height={500}
