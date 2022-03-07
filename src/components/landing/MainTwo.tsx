@@ -2,21 +2,11 @@ import React from "react";
 
 function MainTwo() {
   return (
-    <div className="mt-[300px] w-full h-[500px]  flex flex-col-reverse lg:flex-row justify-center items-center gap-20">
-      <div className=" flex justify-center items-end rounded-md  ">
-        <video
-          loop
-          muted
-          autoPlay
-          src="/videos/shen.mp4"
-          className="w-[400px] lg:w-full h-[226px] lg:h-[300px] rounded-[16px] border"
-        ></video>
-      </div>
+    <div className="mt-[300px] w-full h-[200px]  flex flex-col-reverse lg:flex-row justify-center items-center">
+      <div className=" lg:block"></div>
+
       <div>
-        <ul
-          dir="rtl"
-          className="px-[20px] text-blue-500 mt-[0px] lg:mt-[0px] mb-[80px] sm:mb-[0px]"
-        >
+        <ul dir="rtl" className="px-[20px] text-blue-500 mt-[70px] ">
           <li className="text-[18px] md:text-[30px]">
             - رسانت فقط در حوضه استاپ موشن فعال نیست!
           </li>

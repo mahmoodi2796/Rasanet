@@ -37,7 +37,7 @@ const carts = [
   {
     id: 2,
     profile: "/images/profileFour.jpeg",
-    idIntagram: "mahmoodi2795",
+    idIntagram: "ronaldiniho",
     type: "/images/instagram.png",
 
     coment: " oh my god 👏🏾👏🏾👏🏾",
