@@ -20,7 +20,7 @@ const MainOne = () => {
 
   return (
     <div className="mt-[130px] lg:mt-[200px] w-full h-[600px] lg:h-[300px] block lg:flex justify-center gap-10">
-      <div className="w-full lg:w-[500px] flex lg:block justify-center px-[25px]">
+      <div className="w-full lg:w-[500px] flex lg:block justify-center px-[25px] mt-[0px] lg:mt-[80px]">
         <div className="embla  w-[500px] h-[300px] ">
           <div className="embla__viewport" ref={viewportRef}>
             <div className="embla__container">

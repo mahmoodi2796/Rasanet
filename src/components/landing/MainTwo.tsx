@@ -13,12 +13,17 @@ function MainTwo() {
         ></video>
       </div>
       <div>
-        <ul dir="rtl" className="text-blue-500 mt-[100px] lg:mt-[0px]">
-          <li className="text-[30px]">
+        <ul
+          dir="rtl"
+          className="px-[20px] text-blue-500 mt-[0px] lg:mt-[0px] mb-[80px] sm:mb-[0px]"
+        >
+          <li className="text-[18px] md:text-[30px]">
             - رسانت فقط در حوضه استاپ موشن فعال نیست!
           </li>
-          <li className="text-[20px]">-فعالیت در تمام حوضه های تولید محتوا</li>
-          <li className="text-[20px]">
+          <li className="text-[16px] md:text-[20px]">
+            -فعالیت در تمام حوضه های تولید محتوا
+          </li>
+          <li className="text-[16px] md:text-[20px]">
             -اپلیکیشن رسانت به زودی ارائه داده میشود
           </li>
         </ul>
