@@ -5,8 +5,9 @@ import Link from "next/link";
 import Menu from "../../../public/images/menu.js";
 import Close from "../../../public/images/close.js";
 
-function header() {
+function HeaderLogin() {
   const [draver, setDraver] = useState(false);
+
   return (
     <div className="w-full h-[100px] shadow-2xl bg-white fixed z-20 ">
       <div className="w-full h-full px-[20px]  lg:px-0 flex justify-between lg:justify-around items-center  mx-auto container ">
@@ -26,7 +27,7 @@ function header() {
               <div
                 className="text-[16px] cursor-pointer"
                 onClick={() =>
-                  window.scrollTo({ top: 1800, behavior: "smooth" })
+                  window.scrollTo({ top: 2230, behavior: "smooth" })
                 }
               >
                 سوالات متداول
@@ -34,9 +35,9 @@ function header() {
               <div className="text-[16px] cursor-pointer">موقعیت شغلی</div>
             </div>
           </div>
-          <Link href="/login">
+          <Link href="/">
             <div className="text-[16px] bg-[#3094ea] text-white flex justify-center px-[23px] py-[7px] rounded-md cursor-pointer">
-              ورود
+              خانه
             </div>
           </Link>
           <div className="block lg:hidden ">
@@ -53,7 +54,7 @@ function header() {
                   <div
                     className="text-[17px] cursor-pointer"
                     onClick={() =>
-                      window.scrollTo({ top: 1930, behavior: "smooth" })
+                      window.scrollTo({ top: 2230, behavior: "smooth" })
                     }
                   >
                     <div onClick={() => setDraver(false)}>سوالات متداول</div>
@@ -72,4 +73,4 @@ function header() {
   );
 }
 
-export default header;
+export default HeaderLogin;

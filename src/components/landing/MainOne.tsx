@@ -1,6 +1,8 @@
 import React, { useEffect, useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import Image from "next/image";
 
+import Jobs from "../../../public/images/jobs.png";
 const MainOne = () => {
   const [viewportRef, embla] = useEmblaCarousel({ loop: true });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
@@ -64,7 +66,7 @@ const MainOne = () => {
                     dir="rtl"
                   >
                     {" "}
-                    <div>
+                    <div className="flex">
                       <ul
                         dir="rtl"
                         className=" text-blue-500 w-full flex flex-col items-start px-[30px]"
@@ -77,6 +79,14 @@ const MainOne = () => {
                         <li className="">-تصویر ساز تدوینگر</li>
                         <li className="">-ماکت ساز</li>
                       </ul>
+                      <div className="ml-[20px]">
+                        <Image
+                          src={Jobs}
+                          alt="Picture of the author"
+                          width={300}
+                          height={300}
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
