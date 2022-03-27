@@ -26,7 +26,7 @@ function header() {
               <div
                 className="text-[16px] cursor-pointer"
                 onClick={() =>
-                  window.scrollTo({ top: 1800, behavior: "smooth" })
+                  window.scrollTo({ top: 1510, behavior: "smooth" })
                 }
               >
                 سوالات متداول
@@ -53,7 +53,7 @@ function header() {
                   <div
                     className="text-[17px] cursor-pointer"
                     onClick={() =>
-                      window.scrollTo({ top: 1930, behavior: "smooth" })
+                      window.scrollTo({ top: 1690, behavior: "smooth" })
                     }
                   >
                     <div onClick={() => setDraver(false)}>سوالات متداول</div>

@@ -8,7 +8,7 @@ function question() {
 
   return (
     <div className="bg-[#fbfafb] h-[500px] lg:h-[500px] w-full flex flex-col items-center ">
-      <div className="text-[#3997e9] text-[25px] lg:text-[50px] mt-[50px] lg:mt-[50px]">
+      <div className="text-[#3997e9] text-[25px] lg:text-[35px] mt-[50px] lg:mt-[50px]">
         سوالات متداول
       </div>
 
@@ -20,7 +20,7 @@ function question() {
           color: questionOne ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[25px]" dir="rtl">
+        <div className="text-[12px] md:text-[22px]" dir="rtl">
           رسانت چیست؟
         </div>
         <div dir="rtl" className="mt-[20px]  text-[#737789]  sm:mt-[0px]">
@@ -35,7 +35,7 @@ function question() {
           color: questionTwo ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[25px] mt-[20px]" dir="rtl">
+        <div className="text-[12px] md:text-[22px] mt-[20px]" dir="rtl">
           رسانت چه خدماتی به مشتریان ارایه می دهد؟
         </div>
         <div dir="rtl" className="mt-[20px]  text-[#737789]">
@@ -51,7 +51,7 @@ function question() {
           color: questionThree ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[25px] mt-[20px]" dir="rtl">
+        <div className="text-[12px] md:text-[22px] mt-[20px]" dir="rtl">
           مزایای رسانت چیست؟
         </div>
         <div dir="rtl" className="mt-[20px]  text-[#737789]">
@@ -66,7 +66,7 @@ function question() {
           color: questionFour ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[25px] mt-[20px]" dir="rtl">
+        <div className="text-[12px] md:text-[22px] mt-[20px]" dir="rtl">
           چگونه با رسانت تماس بگیریم؟
         </div>
         <div dir="rtl" className="mt-[20px]  text-[#737789]">

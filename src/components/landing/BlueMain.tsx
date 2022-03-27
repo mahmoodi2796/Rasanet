@@ -4,9 +4,9 @@ import Support from "../../../public/images/support.png";
 
 function BlueMain() {
   return (
-    <div className=" w-full h-[700px] lg:h-[800px] bg-[#3997e9] mt-[100px] flex-row justify-center items-center gap-32 ">
-      <div className="w-full h-full flex-row justify-center items-center mx-auto container">
-        <div className="w-full ">
+    <div className=" w-full   bg-[#3997e9]  ">
+      <div className="w-full h-full mx-auto container flex">
+        <div className=" w-1/2">
           <Image
             src={Support}
             alt="Picture of the author"
@@ -14,8 +14,11 @@ function BlueMain() {
             height={500}
           />
         </div>
-        <div className="flex flex-col gap-2 mr-[10px]" dir="rtl">
-          <span className="text-[27px] lg:text-[30px] text-white">
+        <div
+          className="w-1/2 flex flex-col gap-2 md:mt-48 mt-10 md:mr-0 mr-8"
+          dir="rtl"
+        >
+          <span className="text-[27px] lg:text-[30px] text-white hidden md:block">
             رسانت; همیشه در دسترس است.
           </span>
           <span className="text-[15px] lg:text-[20px] text-white">

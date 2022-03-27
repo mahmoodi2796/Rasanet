@@ -30,13 +30,13 @@ const MainOne = () => {
                 <div className="embla__slide__inner">
                   <div>
                     <div
-                      className="text-[22px] text-[#3094ea] mt-[50px]"
+                      className="text-[25px] text-[#3094ea] mt-[50px]"
                       dir="rtl"
                     >
                       رسانت:
                     </div>
                     <div
-                      className="text-[20px] text-gray-400 mt-[20px]"
+                      className="md:text-[20px] text-[16px] text-gray-400 mt-[20px]"
                       dir="rtl"
                     >
                       رسانت شبکه ای خلاق و نوآور در زمینه تولید و انتشار محتوای
@@ -50,7 +50,7 @@ const MainOne = () => {
               <div className="embla__slide">
                 <div className="embla__slide__inner">
                   <div
-                    className="text-[20px] text-[#3094ea] mt-[60px]"
+                    className="md:text-[20px] text-[16px] text-[#3094ea] mt-[60px]"
                     dir="rtl"
                   >
                     تبلیغات شما توسط پیج‌ها یا اینفلوئنسرها منتشر می‌شود و شما

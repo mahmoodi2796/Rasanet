@@ -4,20 +4,8 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className=" w-full h-[500px] relative overflow-hidden">
-      <svg
-        className="absolute h-full   bottom-0 -z-10 overflow-hidden"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 1840 320"
-      >
-        <path
-          fill="#3997e9"
-          fillOpacity="1"
-          d="M0,64L80,80C160,96,320,128,480,117.3C640,107,800,53,960,32C1120,11,1280,21,1360,26.7L1440,32L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
-
-      <div className="w-full h-[290px] mx-auto container flex justify-between items-start mt-[180px] md:mt-[170px] px-[15px] md:px-[0px]">
+    <div className=" w-full h-[400px]  bg-[#3997e9]">
+      <div className="w-full h-[400px] mx-auto container flex justify-between items-center  px-[15px]">
         <div className="h-[160px] w-[300px]">
           <Image
             src={Logorasanet}
