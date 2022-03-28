@@ -4,7 +4,7 @@ import CloudeUP from "../../../public/images/cloudeLoginUp";
 import CloudeDown from "../../../public/images/cloudeDown.js";
 import CloudeDownMobile from "../../../public/images/cloudeDownMobile.js";
 import Link from "next/link";
-import Header from "./HeaderLogin";
+import Header from "./HeaderRegister";
 
 import Logo from "../../../public/images/logoWrood.png";
 
@@ -14,7 +14,7 @@ function Login() {
       <div className="absolute top-0 left-0 z-50 ">
         <Header />
       </div>
-      <div className=" w-[330px] h-[450px] mt-[50px]   z-40  rounded-[12px] shadow-shadow bg-white">
+      <div className=" w-[330px] h-[480px] mt-[50px]   z-40  rounded-[12px] shadow-shadow bg-white">
         <div className="rounded-[50px] flex justify-end mr-[30px] mt-[20px]">
           <Image
             src={Logo}
@@ -46,16 +46,25 @@ function Login() {
             رمز عبور
           </label>
         </div>
+        <div className="w-full h-[40px] flex justify-center mt-[30px] relative">
+          <input
+            type="password"
+            className="border-b border-gray-600 w-[250px] h-[40px] px-[10px]"
+          />
+          <label className="absolute top-[-25px] left-[50px] text-slate-400 text-[15px] ">
+            تکرار رمز عبور
+          </label>
+        </div>
         <div className="w-full flex justify-center">
           <button className="border bg-[#3094ea] text-white w-[100px] h-[40px] rounded-[7px] mt-[20px]">
-            ورود
+            ثبت نام
           </button>
         </div>
         <div className="w-full flex justify-center mt-[10px] text-[14px]">
-          <Link href="/register">
-            <div className="cursor-pointer text-[#3094ea]">ثبت نام</div>
+          <Link href="/login">
+            <div className="cursor-pointer text-[#3094ea]">ورود</div>
           </Link>
-          حساب ندارید؟
+          حساب دارید؟
         </div>
       </div>
 
