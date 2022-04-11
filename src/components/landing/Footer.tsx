@@ -279,10 +279,10 @@ function Footer() {
             استودیو رسانت
           </div>
           <div className="text-[14px] text-right text-white mt-[6px]">
-            ساخت تیزر تبلیغاتی
+            ساخت تیـزر تبلیغاتی
           </div>
           <div className="text-[14px] text-right text-white mt-[6px]">
-            ساخت رئال موشن
+            ساخت رئـال موشـن
           </div>
           <div className="text-[14px] text-right text-white mt-[6px]">
             ساخت استاپ موشن

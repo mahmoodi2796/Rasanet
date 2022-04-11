@@ -23,16 +23,10 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse"
+          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse "
           dir="rtl"
         >
-          <div
-            className={`border border-black rounded-md duration-300 `}
-            // style={{
-            //   rotate: questionTwo ? "90" : "0",
-            //   color: questionTwo ? "#3094ea" : "black",
-            // }}
-          >
+          <div className={`border border-black rounded-md duration-300  `}>
             <div
               className={`duration-300 ${
                 questionTwo
@@ -43,7 +37,10 @@ function question() {
               <Arow />
             </div>
           </div>
-          رسانت چه خدماتی ارایه می دهد؟
+          <div className="pr-[5px] pt-[3px]">
+            {" "}
+            رسانت چه خدماتی ارایه می دهد؟
+          </div>
         </div>
 
         <div dir="rtl" className="mt-[10px]  text-[#737789]">
@@ -74,7 +71,8 @@ function question() {
               <Arow />
             </div>
           </div>
-          مزایای رسانت چیست؟
+
+          <div className="pr-[5px] pt-[3px]">مزایای رسانت چیست؟</div>
         </div>
 
         <div dir="rtl" className="mt-[10px]  text-[#737789]">
@@ -105,7 +103,10 @@ function question() {
               <Arow />
             </div>
           </div>
-          فرایند سفارش از رسانت چگونه است؟
+
+          <div className="pr-[5px] pt-[3px]">
+            فرایند سفارش از رسانت چگونه است؟
+          </div>
         </div>
 
         <div dir="rtl" className="mt-[10px]  text-[#737789]">
