@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className=" w-full h-[400px] bg-[#344151]">
+    <div className=" w-full h-[380px] bg-[#344151]">
       <div className="w-full h-full flex justify-center items-start ">
         <div className="mt-[30px]">
           <Image
@@ -190,8 +190,8 @@ function Footer() {
               </svg>
             </div>
             تهران,خیابان انقلاب, نبش خیابان <br />
-            دانشگاه , مرکز نوآوری دانشگاه <br />
-            طبقه دوم.
+            دانـشگاه , مرکـز نوآوری دانـشگاه <br />
+            طبقه دوم
           </div>
           <div className="text-[14px] text-right text-white mt-[6px] flex flex-row-reverse">
             <div className="ml-[10px]">

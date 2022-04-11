@@ -17,22 +17,24 @@ const MainOne = () => {
               height={45}
             />
           </div>
-          <Typewriter
-            options={{
-              strings: [" کار درست ", "خلاق ، نوآور ، پیشرو "],
-              autoStart: true,
-              deleteSpeed: 22,
-              skipAddStyles: true,
-              loop: true,
-            }}
-          />
+          <div dir="rtl" className="text-[#ff563f]">
+            <Typewriter
+              options={{
+                strings: [" خلاق  ", "پیشرو ", "نوآور"],
+                autoStart: true,
+                deleteSpeed: 22,
+                skipAddStyles: true,
+                loop: true,
+              }}
+            />
+          </div>
           <div className="text-right text-[20px]">
             در زمینه تولیـد و انتـشار محـتوای دیجـیتالی است که از سال ۱۳۹۹ با
             بهره گیری از دانش روز , تجهیزات پیشرفته و نیروهای متخصص با هدف ارائه
             خدمات به کسب و کار های بازار سرمایه شروع به کار کرده است
           </div>
         </div>
-        <div className="flex justify-end mt-[20px]">
+        <div className="flex justify-end mt-[15px]">
           <div className="text-[14px] w-[100px] bg-[#4fadd6] text-white flex justify-center py-[8px] rounded-[4px] cursor-pointer">
             شروع کنید
           </div>

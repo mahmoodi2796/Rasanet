@@ -11,7 +11,7 @@ function question() {
       <div className=" text-[25px] lg:text-[30px] mt-[50px] lg:mt-[50px]">
         سوالات متداول
       </div>
-      <div className=" text-[25px] lg:text-[20px] mt-[20px] lg:mt-[20px] mb-[15px]">
+      <div className=" text-[20px] mt-[12px]  mb-[15px]">
         با استودیو رسانت کسب و کار خود را خلاقانه به نمایش بگذارید
       </div>
       <div
