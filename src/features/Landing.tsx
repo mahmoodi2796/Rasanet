@@ -13,9 +13,9 @@ function Landing() {
       <Header />
       <MainOne />
       <MainTwo />
-      <BlueMain />
+      {/* <BlueMain /> */}
       <Question />
-      <Media />
+      {/* <Media /> */}
       <Footer />
     </div>
   );

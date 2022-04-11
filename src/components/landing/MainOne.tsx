@@ -1,96 +1,40 @@
 import React, { useEffect, useState, useCallback } from "react";
-import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
+import logo from "../../../public/images/rasanetHroof.png";
 
 import Jobs from "../../../public/images/jobs.png";
 const MainOne = () => {
-  const [viewportRef, embla] = useEmblaCarousel({ loop: true });
-  const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
-  const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
-
-  const onSelect = useCallback(() => {
-    if (!embla) return;
-    setPrevBtnEnabled(embla.canScrollPrev());
-    setNextBtnEnabled(embla.canScrollNext());
-  }, [embla]);
-
-  useEffect(() => {
-    if (!embla) return;
-    embla.on("select", onSelect);
-    onSelect();
-  }, [embla, onSelect]);
-
   return (
-    <div className="mt-[130px] lg:mt-[200px] w-full h-[600px] lg:h-[300px] block lg:flex justify-center gap-10">
+    <div className="mt-[130px] lg:mt-[200px] w-full h-[600px] lg:h-[300px] block lg:flex justify-center ">
       <div className="w-full lg:w-[500px] flex lg:block justify-center px-[25px] mt-[0px] lg:mt-[80px]">
-        <div className="embla  w-[500px] h-[350px] ">
-          <div className="embla__viewport" ref={viewportRef}>
-            <div className="embla__container">
-              <div className="embla__slide">
-                <div className="embla__slide__inner">
-                  <div>
-                    <div
-                      className="text-[25px] text-[#3094ea] mt-[50px]"
-                      dir="rtl"
-                    >
-                      رسانت:
-                    </div>
-                    <div
-                      className="md:text-[20px] text-[16px] text-gray-400 mt-[20px]"
-                      dir="rtl"
-                    >
-                      رسانت شبکه ای خلاق و نوآور در زمینه تولید و انتشار محتوای
-                      دیجیتالی است که از سال ۱۳۹۹ با بهره گیری از دانش روز ,
-                      تجهیزات پیشرفته و نیروهای متخصص با هدف ارایه خدمات به
-                      بلاگر ها و کسب و کار های بازار سرمایه شروع به کار کرده است
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="embla__slide">
-                <div className="embla__slide__inner">
-                  <div
-                    className="md:text-[20px] text-[16px] text-[#3094ea] mt-[60px]"
-                    dir="rtl"
-                  >
-                    تبلیغات شما توسط پیج‌ها یا اینفلوئنسرها منتشر می‌شود و شما
-                    تنها به اندازه‌ای که تبلیغتان در این رسانه‌ها بازدید خواهد
-                    داشت، هزینه پرداخت می‌کنید.
-                  </div>
-                </div>
-              </div>
-              <div className="embla__slide">
-                <div className="embla__slide__inner">
-                  <div
-                    className="text-[20px] text-[#3094ea] mt-[50px] bg-[#ebf4fc] p-[10px] rounded-[16px] h-[200px]"
-                    dir="rtl"
-                  >
-                    {" "}
-                    <div className="flex">
-                      <ul
-                        dir="rtl"
-                        className=" text-blue-500 w-full flex flex-col items-start px-[30px]"
-                      >
-                        <li dir="rtl" className="">
-                          فرصت های شغلی:
-                        </li>
-                        <li className="">-طراح و گرافیست</li>
-                        <li className="">-تصویر بردار</li>
-                        <li className="">-تصویر ساز</li>
-                      </ul>
-                      <div className="ml-[20px]">
-                        <Image
-                          src={Jobs}
-                          alt="Picture of the author"
-                          width={300}
-                          height={300}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+        <div className="text-[20px] text-right">
+          <div>
+            <Image
+              src={logo}
+              alt="Picture of the author"
+              width={110}
+              height={45}
+            />
+          </div>
+          <Typewriter
+            options={{
+              strings: [" کار درست ", "خلاق ، نوآور ، پیشرو "],
+              autoStart: true,
+              deleteSpeed: 22,
+              skipAddStyles: true,
+              loop: true,
+            }}
+          />
+          <div className="text-right text-[20px]">
+            در زمینه تولیـد و انتـشار محـتوای دیجـیتالی است که از سال ۱۳۹۹ با
+            بهره گیری از دانش روز , تجهیزات پیشرفته و نیروهای متخصص با هدف ارائه
+            خدمات به کسب و کار های بازار سرمایه شروع به کار کرده است
+          </div>
+        </div>
+        <div className="flex justify-end mt-[20px]">
+          <div className="text-[14px] w-[100px] bg-[#4fadd6] text-white flex justify-center py-[8px] rounded-[4px] cursor-pointer">
+            شروع کنید
           </div>
         </div>
       </div>

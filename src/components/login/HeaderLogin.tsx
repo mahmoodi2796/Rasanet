@@ -11,14 +11,16 @@ function HeaderLogin() {
   return (
     <div className="w-full h-[100px] shadow-2xl bg-white fixed z-20 ">
       <div className="w-full h-full px-[20px]  lg:px-0 flex justify-between lg:justify-around items-center  mx-auto container ">
-        <div className="w-[150px] h-[50px]">
-          <Image
-            src={Logorasanet}
-            alt="Picture of the author"
-            width={150}
-            height={50}
-          />
-        </div>
+        <Link href="/">
+          <div className="w-[150px] h-[50px] cursor-pointer">
+            <Image
+              src={Logorasanet}
+              alt="Picture of the author"
+              width={150}
+              height={50}
+            />
+          </div>
+        </Link>
 
         <div className="flex items-center justify-center gap-6">
           <div className="hidden lg:block">

@@ -1,77 +1,116 @@
 import React, { useState } from "react";
+import Arow from "../../../public/images/arowQuestion";
 
 function question() {
   const [questionOne, setQuestionOne] = useState(false);
   const [questionTwo, setQuestionTwo] = useState(false);
   const [questionThree, setQuestionThree] = useState(false);
-  const [questionFour, setQuestionFour] = useState(false);
 
   return (
-    <div className="bg-[#fbfafb] h-[500px] lg:h-[500px] w-full flex flex-col items-center ">
-      <div className="text-[#3997e9] text-[25px] lg:text-[35px] mt-[50px] lg:mt-[50px]">
+    <div className=" h-[500px]  w-7/12 flex flex-col items-center mx-auto container">
+      <div className=" text-[25px] lg:text-[30px] mt-[50px] lg:mt-[50px]">
         سوالات متداول
       </div>
-
-      <div
-        className="duration-300 overflow-hidden w-2/3 container mx-auto p-[5px] border-b border-[#b5b6bd] mt-[40px] lg:mt-[0px]"
-        onClick={() => setQuestionOne((prevState) => !prevState)}
-        style={{
-          maxHeight: questionOne ? 200 : 42,
-          color: questionOne ? "#3094ea" : "black",
-        }}
-      >
-        <div className="text-[12px] md:text-[22px]" dir="rtl">
-          رسانت چیست؟
-        </div>
-        <div dir="rtl" className="mt-[20px]  text-[#737789]  sm:mt-[0px]">
-          رسانت یک بستر برای راحت تر کردن فضای تبلیغاتی و تولید محتواست.
-        </div>
+      <div className=" text-[25px] lg:text-[20px] mt-[20px] lg:mt-[20px] mb-[15px]">
+        با استودیو رسانت کسب و کار خود را خلاقانه به نمایش بگذارید
       </div>
       <div
-        className="duration-300 overflow-hidden w-2/3 container mx-auto p-[5px] border-b border-[#b5b6bd] "
+        className="duration-300 overflow-hidden w-full container mx-auto p-[5px] border rounded-md border-[#b5b6bd]"
         onClick={() => setQuestionTwo((prevState) => !prevState)}
         style={{
-          maxHeight: questionTwo ? 200 : 62,
+          maxHeight: questionTwo ? 200 : 53,
           color: questionTwo ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[22px] mt-[20px]" dir="rtl">
-          رسانت چه خدماتی به مشتریان ارایه می دهد؟
+        <div
+          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse"
+          dir="rtl"
+        >
+          <div
+            className={`border border-black rounded-md duration-300 `}
+            // style={{
+            //   rotate: questionTwo ? "90" : "0",
+            //   color: questionTwo ? "#3094ea" : "black",
+            // }}
+          >
+            <div
+              className={`duration-300 ${
+                questionTwo
+                  ? "text-[#3094ea] rotate-90 "
+                  : "text-black rotate-0"
+              }`}
+            >
+              <Arow />
+            </div>
+          </div>
+          رسانت چه خدماتی ارایه می دهد؟
         </div>
-        <div dir="rtl" className="mt-[20px]  text-[#737789]">
+
+        <div dir="rtl" className="mt-[10px]  text-[#737789]">
           رسانت برای مشتریان خود تولید محتوا میکند یعنی با توچه به سفارش کاربراش
           برای اونها ویدیو تولید میکنه.
         </div>
       </div>
       <div
-        className="duration-300 overflow-hidden w-2/3 container mx-auto p-[5px] border-b border-[#b5b6bd] "
+        className="duration-300 overflow-hidden w-full container mx-auto p-[5px] border rounded-md border-[#b5b6bd] mt-[20px]"
         onClick={() => setQuestionThree((prevState) => !prevState)}
         style={{
-          maxHeight: questionThree ? 200 : 62,
+          maxHeight: questionThree ? 200 : 53,
           color: questionThree ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[22px] mt-[20px]" dir="rtl">
+        <div
+          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse"
+          dir="rtl"
+        >
+          <div className={`border border-black rounded-md duration-300 `}>
+            <div
+              className={`duration-300 ${
+                questionThree
+                  ? "text-[#3094ea] rotate-90 "
+                  : "text-black rotate-0"
+              }`}
+            >
+              <Arow />
+            </div>
+          </div>
           مزایای رسانت چیست؟
         </div>
-        <div dir="rtl" className="mt-[20px]  text-[#737789]">
-          تولید سریع و باکیفیت ویدیو با قیمت بسیار عاقلانه
+
+        <div dir="rtl" className="mt-[10px]  text-[#737789]">
+          رسانت برای مشتریان خود تولید محتوا میکند یعنی با توچه به سفارش کاربراش
+          برای اونها ویدیو تولید میکنه.
         </div>
       </div>
       <div
-        className="duration-300 overflow-hidden w-2/3 container mx-auto p-[5px] border-b border-[#b5b6bd] "
-        onClick={() => setQuestionFour((prevState) => !prevState)}
+        className="duration-300 overflow-hidden w-full container mx-auto p-[5px] border rounded-md border-[#b5b6bd] mt-[20px]"
+        onClick={() => setQuestionOne((prevState) => !prevState)}
         style={{
-          maxHeight: questionFour ? 200 : 62,
-          color: questionFour ? "#3094ea" : "black",
+          maxHeight: questionOne ? 200 : 53,
+          color: questionOne ? "#3094ea" : "black",
         }}
       >
-        <div className="text-[12px] md:text-[22px] mt-[20px]" dir="rtl">
-          چگونه با رسانت تماس بگیریم؟
+        <div
+          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse"
+          dir="rtl"
+        >
+          <div className={`border border-black rounded-md duration-300 `}>
+            <div
+              className={`duration-300 ${
+                questionOne
+                  ? "text-[#3094ea] rotate-90 "
+                  : "text-black rotate-0"
+              }`}
+            >
+              <Arow />
+            </div>
+          </div>
+          فرایند سفارش از رسانت چگونه است؟
         </div>
-        <div dir="rtl" className="mt-[20px]  text-[#737789]">
-          <div>راه ارتباطی :</div>
-          <div> ۰۲۱-۹۱۰۷۰۷۷</div>
+
+        <div dir="rtl" className="mt-[10px]  text-[#737789]">
+          رسانت برای مشتریان خود تولید محتوا میکند یعنی با توچه به سفارش کاربراش
+          برای اونها ویدیو تولید میکنه.
         </div>
       </div>
     </div>

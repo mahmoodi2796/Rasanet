@@ -4,41 +4,42 @@ import Logorasanet from "../../../public/images/rasanet.gif";
 import Link from "next/link";
 import Menu from "../../../public/images/menu.js";
 import Close from "../../../public/images/close.js";
+import Serach from "../../../public/images/search.js";
 
 function header() {
   const [draver, setDraver] = useState(false);
   return (
-    <div className="w-full h-[100px] shadow-2xl bg-white fixed z-20 ">
+    <div className="w-full h-[86px] shadow-2xl bg-white fixed z-20 ">
       <div className="w-full h-full px-[20px]  lg:px-0 flex justify-between lg:justify-around items-center  mx-auto container ">
-        <div className="w-[150px] h-[50px]">
-          <Image
-            src={Logorasanet}
-            alt="Picture of the author"
-            width={150}
-            height={50}
-          />
-        </div>
+        <Link href="/login">
+          <div className="text-[16px] bg-[#4fadd6] text-white flex justify-center px-[18px] py-[7px] rounded-[4px] cursor-pointer">
+            <span className="text-[14px]">ورود</span>
+            <span className="px-[4px]">/</span>
+            <span className="text-[14px]">ثبت نام</span>
+          </div>
+        </Link>
 
         <div className="flex items-center justify-center gap-6">
           <div className="hidden lg:block">
             <div className="flex justify-center items-center gap-8 ">
-              <div className="text-[16px] cursor-pointer">درباره ما</div>
-              <div
-                className="text-[16px] cursor-pointer"
-                onClick={() =>
-                  window.scrollTo({ top: 1510, behavior: "smooth" })
-                }
-              >
-                سوالات متداول
+              <div className="text-red-500 cursor-pointer">
+                <Serach />
               </div>
-              <div className="text-[16px] cursor-pointer">موقعیت شغلی</div>
+              <div className="text-[16px] cursor-pointer">درباره ما</div>
+              <div className="text-[16px] cursor-pointer">سفارش</div>
+              <div className="text-[16px] cursor-pointer">نمونه کار</div>
+              <div className="text-[16px] cursor-pointer">خدمات</div>
+              <div className="text-[16px] cursor-pointer">خانه</div>
             </div>
           </div>
-          <Link href="/login">
-            <div className="text-[16px] bg-[#3094ea] text-white flex justify-center px-[23px] py-[7px] rounded-md cursor-pointer">
-              ورود
-            </div>
-          </Link>
+          <div className="w-[110px] h-[50px] ">
+            <Image
+              src={Logorasanet}
+              alt="Picture of the author"
+              width={110}
+              height={45}
+            />
+          </div>
           <div className="block lg:hidden ">
             <div
               className="top-0 right-0 overflow-hidden duration-300 bg-[#3094ea] absolute h-screen text-white"
