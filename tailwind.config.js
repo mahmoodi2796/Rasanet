@@ -8,6 +8,10 @@ module.exports = {
       sans: ["IRANSansWebFaNum", "Arial", "sans-serif"],
     },
     extend: {
+      skew: {
+        30: "50deg",
+        70: "70deg",
+      },
       animation: {
         bounce: "bounce 20s linear infinite",
       },

@@ -13,9 +13,9 @@ function header() {
       <div className="w-full h-full px-[20px]  lg:px-0 flex justify-between lg:justify-around items-center  mx-auto container ">
         <Link href="/login">
           <div className="text-[16px] bg-[#4fadd6] text-white flex justify-center px-[18px] py-[7px] rounded-[4px] cursor-pointer">
-            <span className="text-[14px]">ورود</span>
-            <span className="px-[4px]">/</span>
-            <span className="text-[14px]">ثبت نام</span>
+            <span className="text-[13px]">ثبت نام</span>
+            <span className="px-[4px] text-[14px]">/</span>
+            <span className="text-[13px]">ورود</span>
           </div>
         </Link>
 

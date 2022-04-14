@@ -7,7 +7,7 @@ function question() {
   const [questionThree, setQuestionThree] = useState(false);
 
   return (
-    <div className=" h-[500px]  w-7/12 flex flex-col items-center mx-auto container">
+    <div className=" h-[500px]  w-7/12 flex flex-col items-center mx-auto container mt-[120px]">
       <div className=" text-[25px] lg:text-[30px] mt-[50px] lg:mt-[50px]">
         سوالات متداول
       </div>

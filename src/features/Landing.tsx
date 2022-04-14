@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/landing/Header";
 import MainOne from "../components/landing/MainOne";
 import MainTwo from "../components/landing/MainTwo";

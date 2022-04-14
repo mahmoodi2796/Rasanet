@@ -88,3 +88,49 @@
 .embla__button--next {
   right: 27px;
 }
+
+.btn-login {
+  position: relative;
+}
+
+.login {
+  animation: mymove 5s infinite;
+  position: absolute;
+  top: 22%;
+  left: 22%;
+}
+.signup {
+  animation: mymove-2 5s infinite;
+  position: absolute;
+  top: 22%;
+  left: 10%;
+}
+
+@keyframes mymove {
+  0% {
+    color: white;
+    z-index: 10;
+  }
+  50% {
+    color: red;
+    z-index: 0;
+  }
+  100% {
+    color: white;
+    z-index: 10;
+  }
+}
+@keyframes mymove-2 {
+  0% {
+    color: red;
+    z-index: 0;
+  }
+  55% {
+    color: white;
+    z-index: 10;
+  }
+  100% {
+    color: red;
+    z-index: 0;
+  }
+}

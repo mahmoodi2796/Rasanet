@@ -54,56 +54,56 @@ function MainTwo() {
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleOne
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[20px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleTwo
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[40px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleThree
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[70px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleFour
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[100px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleFive
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[130px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleSix
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[160px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleSeven
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[190px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
         <div
           className={`border border-black w-[240px] h-[240px]  ${
             reqtangleeghit
               ? `visible opacity-100`
-              : `invisible opacity-10 mt-[250px]`
+              : `invisible opacity-10 -skew-x-30 -skew-y-30 translate-x-6 mt-[40px] `
           } duration-1000`}
         ></div>
       </div>
