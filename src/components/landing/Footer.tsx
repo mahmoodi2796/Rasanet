@@ -13,7 +13,7 @@ function Footer() {
             width={230}
             height={140}
           />
-          <div className="flex justify-center gap-1 -mt-[15px]">
+          <div className="flex justify-center gap-1 -mt-[25px]">
             <svg
               width="28"
               height="28"
@@ -292,8 +292,9 @@ function Footer() {
       <div className="h-[1px] w-full  -mt-[110px] flex justify-center">
         <div className="h-[1px] w-1/2 bg-white ml-10"></div>
       </div>
-      <div className="w-full flex justify-center text-white mt-[15px] text-[14px]">
-        .تمام حقوق برای استودیو رسانت محفوظ است
+      <div className="w-full flex justify-center items-center text-white mt-[15px] text-[14px] gap-1">
+        <div className="text-[20px]">&copy;</div>
+        تمام حقوق برای استودیو رسانت محفوظ است
       </div>
     </div>
   );
