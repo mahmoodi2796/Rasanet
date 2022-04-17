@@ -47,7 +47,7 @@ function MainTwo() {
       {console.log(scroll)}
       <div className="text-[26px]">برخی از خدمات رسانت</div>
       <div className="text-[18px] mt-[12px] text-[#545454]">
-        با خدمات کامل استودیو رسانت با خیال راحت به کسب و کارتان بپردازید
+        .با خدمات کامل استودیو رسانت با خیال راحت به کسب و کارتان بپردازید
       </div>
       <div className="w-7/12 flex flex-wrap justify-center gap-10 mt-[50px] mx-auto container">
         <div

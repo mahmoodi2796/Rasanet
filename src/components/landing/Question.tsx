@@ -12,7 +12,7 @@ function question() {
         سوالات متداول
       </div>
       <div className=" text-[20px] mt-[12px]  mb-[15px] text-[#545454]">
-        با استودیو رسانت کسب و کار خود را خلاقانه به نمایش بگذارید
+        .با استودیو رسانت کسب و کار خود را خلاقانه به نمایش بگذارید
       </div>
       <div
         className="duration-300 overflow-hidden w-full container mx-auto p-[5px] border rounded-md border-[#b5b6bd]"
@@ -23,7 +23,7 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse "
+          className="text-[12px] md:text-[20px] flex justify-between flex-row-reverse "
           dir="rtl"
         >
           <div className={`border border-black rounded-md duration-300  `}>
@@ -39,7 +39,7 @@ function question() {
           </div>
           <div className="pr-[5px] pt-[3px]">
             {" "}
-            رسانت چه خدماتی ارایه می دهد؟
+            رسانت چه خدماتی ارائه می دهد؟
           </div>
         </div>
 
@@ -57,7 +57,7 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse"
+          className="text-[12px] md:text-[20px] flex justify-between flex-row-reverse"
           dir="rtl"
         >
           <div className={`border border-black rounded-md duration-300 `}>
@@ -89,7 +89,7 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[22px] flex justify-between flex-row-reverse"
+          className="text-[12px] md:text-[20px] flex justify-between flex-row-reverse"
           dir="rtl"
         >
           <div className={`border border-black rounded-md duration-300 `}>

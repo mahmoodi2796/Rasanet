@@ -25,7 +25,10 @@ function header() {
               <div className="text-red-500 cursor-pointer">
                 <Serach />
               </div>
-              <div className="text-[16px] cursor-pointer">درباره ما</div>
+
+              <Link href="/about">
+                <a className="text-[16px] cursor-pointer">درباره ما</a>
+              </Link>
               <div className="text-[16px] cursor-pointer">سفارش</div>
               <div className="text-[16px] cursor-pointer">نمونه کار</div>
               <div className="text-[16px] cursor-pointer">خدمات</div>
@@ -51,12 +54,7 @@ function header() {
                 </div>
                 <div className="w-full h-full flex flex-col justify-start mt-[150px] items-center gap-8 ">
                   <div className="text-[17px] cursor-pointer">درباره ما</div>
-                  <div
-                    className="text-[17px] cursor-pointer"
-                    onClick={() =>
-                      window.scrollTo({ top: 1690, behavior: "smooth" })
-                    }
-                  >
+                  <div className="text-[17px] cursor-pointer">
                     <div onClick={() => setDraver(false)}>سوالات متداول</div>
                   </div>
                   <div className="text-[17px] cursor-pointer">موقعیت شغلی</div>

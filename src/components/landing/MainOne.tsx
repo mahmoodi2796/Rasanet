@@ -63,7 +63,7 @@ const MainOne = () => {
             />
           </div>
 
-          <div className="flex justify-start flex-row-reverse gap-2 text-[18px]">
+          <div className="flex justify-start flex-row-reverse gap-2 text-[18px] mt-[12px]">
             مجموعه ای
             <div dir="rtl" className="text-[#ff563f]">
               <Typewriter
@@ -78,13 +78,13 @@ const MainOne = () => {
               />
             </div>
           </div>
-          <div className="text-right text-[20px]">
+          <div className="text-right text-[20px] ">
             در زمینه تولیـد و انتـشار محـتوای دیجـیتالی است که از سال ۱۳۹۹ با
-            بهره گیری از دانش روز , تجهیزات پیشرفته و نیـروهای متخصص با هدف
-            ارائه خدمات به کـسب و کار های بازار سرمایه شروع به کار کرده است
+            بهره گیری از دانش روز , تجهیزات پیشرفته و نیروهای متخصص باهدف ارائه
+            خدمات ‌به کسب وکارهای بازار سرمایه شروع به کار کرده است
           </div>
         </div>
-        <div className="flex justify-end mt-[15px]">
+        <div className="flex justify-end mt-[24px]">
           <div className="text-[14px] w-[100px] bg-[#4fadd6] text-white flex justify-center py-[8px] rounded-[4px] cursor-pointer">
             شروع کنید
           </div>
@@ -103,18 +103,27 @@ const MainOne = () => {
       </div>
       <div className="flex flex-col items-center justify-center gap-5 fixed right-10 top-1/3">
         <div
-          className={`  rounded-full bg-[#4fadd6] border ${
-            circleOne ? `w-[24px] h-[24px]` : ` w-[15px] h-[15px]`
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+          className={`  rounded-full   border border-black ${
+            circleOne
+              ? ` w-[11px] h-[11px] bg-black mx-[1px] my-[1px]`
+              : `w-[12px] h-[12px]`
           }`}
         ></div>
         <div
-          className={`  rounded-full bg-[#4fadd6] border ${
-            circleTwo ? `w-[24px] h-[24px]` : ` w-[15px] h-[15px]`
+          onClick={() => window.scrollTo({ top: 800, behavior: "smooth" })}
+          className={`  rounded-full   border border-black  ${
+            circleTwo
+              ? ` w-[11px] h-[11px] bg-black mx-[1px] my-[1px]`
+              : `w-[12px] h-[12px]`
           }`}
         ></div>
         <div
-          className={`  rounded-full bg-[#4fadd6] border ${
-            circleThree ? `w-[24px] h-[24px]` : ` w-[15px] h-[15px]`
+          onClick={() => window.scrollTo({ top: 1600, behavior: "smooth" })}
+          className={` rounded-full   border border-black  ${
+            circleThree
+              ? ` w-[11px] h-[11px] bg-black mx-[1px] my-[1px]`
+              : `w-[12px] h-[12px]`
           }`}
         ></div>
       </div>
