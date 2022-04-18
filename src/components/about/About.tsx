@@ -1,8 +1,12 @@
-import React from "react";
 import Header from "../landing/Header";
 import AboutSvg from "../../../public/images/about";
+import Image from "next/image";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import Filimosvg from "../../../public/images/filimo.png";
+import Digikalasvg from "../../../public/images/digikala.png";
+import React, { Component } from "react";
+import GoogleMapReact from "google-map-react";
 
 function About() {
   const handleDragStart = (e) => e.preventDefault();
@@ -39,6 +43,7 @@ function About() {
       5
     </div>,
   ];
+
   return (
     <div className="w-full flex flex-col  items-center">
       <Header />
@@ -88,6 +93,64 @@ function About() {
           paddingLeft={235}
           paddingRight={235}
         />
+        <div dir="rtl" className="text-[16px] mt-[80px] ">
+          برخی از مشتریان برجسته رسانت
+        </div>
+        <div className="w-full flex justify-center gap-[92px] mt-[26px]">
+          <Image
+            src={Filimosvg}
+            alt="Picture of the author"
+            width={176}
+            height={88}
+          />
+          <Image
+            src={Filimosvg}
+            alt="Picture of the author"
+            width={176}
+            height={88}
+          />
+          <Image
+            src={Filimosvg}
+            alt="Picture of the author"
+            width={176}
+            height={88}
+          />
+        </div>
+        <div className="w-full flex justify-center gap-[92px] mt-[65px]">
+          <Image
+            src={Digikalasvg}
+            alt="Picture of the author"
+            width={164}
+            height={82}
+          />
+          <Image
+            src={Digikalasvg}
+            alt="Picture of the author"
+            width={164}
+            height={82}
+          />
+          <Image
+            src={Digikalasvg}
+            alt="Picture of the author"
+            width={164}
+            height={82}
+          />
+        </div>
+        <div dir="rtl" className="text-[16px] mt-[80px] ">
+          راه های ارتباط با ما
+        </div>
+        <div dir="rtl" className="text-[14px] mt-[9px] ">
+          شما می‌توانید همه روزه به جز ایام تعطیل از ساعت 9صبح الی 17عصر از با
+          کارشناسان رسانت در ارتباط باشید.
+          <br />
+        </div>
+        <div dir="rtl" className="text-[14px] mt-[4px] ">
+          آدرس: تهران، خیابان انقلاب، خیابان دانشگاه، مرکز نوآوری دانشگاه، پلاک
+          172، طبقه دوم
+        </div>
+        <div dir="rtl" className="text-[14px] mt-[12px] ">
+          شماره تماس: ۹۱۰۷۰۷۷۱-۰۲۱
+        </div>
       </div>
     </div>
   );

@@ -53,6 +53,29 @@
   transform: translate(-50%, -50%);
 }
 
+.alice-carousel__dots-item:not(.__custom):hover,
+.alice-carousel__dots-item:not(.__custom).__active {
+  background-color: #80be97 !important;
+}
+.alice-carousel__dots-item:not(.__custom) {
+  width: 10px !important;
+  height: 10px !important;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #c4c4c4 !important;
+}
+.alice-carousel__prev-btn-item:hover,
+.alice-carousel__next-btn-item:hover {
+  color: #000000 !important;
+}
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+  display: inline-block;
+  cursor: pointer;
+  padding: 5px;
+  margin: 0;
+  color: #000000 !important;
+}
 .embla__button {
   outline: 0;
   cursor: pointer;
