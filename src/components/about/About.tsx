@@ -151,6 +151,24 @@ function About() {
         <div dir="rtl" className="text-[14px] mt-[12px] ">
           شماره تماس: ۹۱۰۷۰۷۷۱-۰۲۱
         </div>
+        <div className="w-full flex justify-center items-center">
+          <div className="mapouter">
+            <div className="gmap_canvas">
+              <iframe
+                className="mt-[31px] mb-[80px]"
+                width="611"
+                height="200"
+                id="gmap_canvas"
+                src="https://maps.google.com/maps?q=35%C2%B042'03.5%22N%2051%C2%B023'52.1%22E&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameBorder="0"
+                scrolling="no"
+              ></iframe>
+              <a href="https://www.whatismyip-address.com"></a>
+              <br />
+              <a href="https://www.embedgooglemap.net"></a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
