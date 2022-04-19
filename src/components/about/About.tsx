@@ -48,20 +48,23 @@ function About() {
 
   return (
     <div className="w-full flex flex-col  items-center">
-      <div
-        dir="ltr"
-        className="mt-[135px] h-full w-full  text-[12px] fixed  left-6"
-      >
-        <div dir="ltr" className="h-full w-full flex items-start gap-1">
-          <div className="text-[12px] hover:text-[#4fadd6] hover:border-b border-[#4fadd6]">
-            <Link href="/">خانه</Link>
-          </div>
-          <Vectorsvg />
-          درباره ما
-        </div>
-      </div>
       <Header />
       <div className="mt-[188px]">
+        <div
+          dir="ltr"
+          className="w-full text-[12px] fixed z-20 left-0 -mt-[25px]"
+        >
+          <div
+            dir="ltr"
+            className="ml-[131px] h-full w-full flex items-start justify-start gap-1 "
+          >
+            <div className="text-[12px] hover:text-[#4fadd6] hover:border-b border-[#4fadd6]">
+              <Link href="/">خانه</Link>
+            </div>
+            <Vectorsvg />
+            درباره ما
+          </div>
+        </div>
         <AboutSvg />
       </div>
       <div className="w-[637px] mx-auto container flex flex-col justify-center items-end ">
