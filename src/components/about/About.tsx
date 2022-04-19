@@ -50,16 +50,18 @@ function About() {
     <div className="w-full flex flex-col  items-center">
       <div
         dir="ltr"
-        className="mt-[135px] w-full flex justify-start items-center gap-1 text-[12px] ml-[100px]"
+        className="mt-[135px] h-full w-full  text-[12px] fixed  left-6"
       >
-        <div className="text-[12px] hover:text-[#4fadd6] hover:border-b border-[#4fadd6]">
-          <Link href="/">خانه</Link>
+        <div dir="ltr" className="h-full w-full flex items-start gap-1">
+          <div className="text-[12px] hover:text-[#4fadd6] hover:border-b border-[#4fadd6]">
+            <Link href="/">خانه</Link>
+          </div>
+          <Vectorsvg />
+          درباره ما
         </div>
-        <Vectorsvg />
-        درباره ما
       </div>
       <Header />
-      <div className="mt-[51px]">
+      <div className="mt-[188px]">
         <AboutSvg />
       </div>
       <div className="w-[637px] mx-auto container flex flex-col justify-center items-end ">
