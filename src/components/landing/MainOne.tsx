@@ -50,8 +50,7 @@ const MainOne = () => {
     }
   }, [scroll]);
   return (
-    <div className="mt-[130px] lg:mt-[200px] w-full h-[600px] lg:h-[300px] block lg:flex justify-center ">
-      {console.log(scroll)}
+    <div className="mt-[130px] lg:mt-[200px] w-full h-full  block lg:flex justify-center ">
       <div className="w-full lg:w-[500px] flex lg:block justify-center px-[25px] mt-[0px] lg:mt-[80px]">
         <div className="text-[20px] text-right ">
           <div>
@@ -101,31 +100,37 @@ const MainOne = () => {
           ></iframe>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center gap-5 fixed right-10 top-1/3">
-        <div
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className={`  rounded-full   border border-black ${
-            circleOne
-              ? ` w-[11px] h-[11px] bg-black mx-[1px] my-[1px]`
-              : `w-[12px] h-[12px]`
-          }`}
-        ></div>
-        <div
-          onClick={() => window.scrollTo({ top: 800, behavior: "smooth" })}
-          className={`  rounded-full   border border-black  ${
-            circleTwo
-              ? ` w-[11px] h-[11px] bg-black mx-[1px] my-[1px]`
-              : `w-[12px] h-[12px]`
-          }`}
-        ></div>
-        <div
-          onClick={() => window.scrollTo({ top: 1600, behavior: "smooth" })}
-          className={` rounded-full   border border-black  ${
-            circleThree
-              ? ` w-[11px] h-[11px] bg-black mx-[1px] my-[1px]`
-              : `w-[12px] h-[12px]`
-          }`}
-        ></div>
+      <div className="h-full flex flex-col gap-5 fixed right-10 top-1/2">
+        <div className=" border border-black rounded-full flex justify-center items-center">
+          <div
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            className={`  rounded-full   ${
+              circleOne
+                ? ` w-[9px] h-[9px] bg-black mx-[1px] my-[1px]  border border-black`
+                : `w-[12px] h-[12px]`
+            }`}
+          ></div>
+        </div>
+        <div className=" border border-black rounded-full flex justify-center items-center">
+          <div
+            onClick={() => window.scrollTo({ top: 850, behavior: "smooth" })}
+            className={`  rounded-full     ${
+              circleTwo
+                ? ` w-[9px] h-[9px] bg-black mx-[1px] my-[1px]`
+                : `w-[12px] h-[12px]`
+            }`}
+          ></div>
+        </div>
+        <div className=" border border-black rounded-full flex justify-center items-center">
+          <div
+            onClick={() => window.scrollTo({ top: 1600, behavior: "smooth" })}
+            className={` rounded-full     ${
+              circleThree
+                ? ` w-[9px] h-[9px] bg-black mx-[1px] my-[1px]`
+                : `w-[12px] h-[12px]`
+            }`}
+          ></div>
+        </div>
       </div>
     </div>
   );

@@ -6,7 +6,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 import Filimosvg from "../../../public/images/filimo.png";
 import Digikalasvg from "../../../public/images/digikala.png";
 import React, { Component } from "react";
-import GoogleMapReact from "google-map-react";
+import Link from "next/link";
+
+import Vectorsvg from "../../../public/images/vector";
 
 function About() {
   const handleDragStart = (e) => e.preventDefault();
@@ -46,8 +48,18 @@ function About() {
 
   return (
     <div className="w-full flex flex-col  items-center">
+      <div
+        dir="ltr"
+        className="mt-[135px] w-full flex justify-start items-center gap-1 text-[12px] ml-[100px]"
+      >
+        <div className="text-[12px] hover:text-[#4fadd6] hover:border-b border-[#4fadd6]">
+          <Link href="/">خانه</Link>
+        </div>
+        <Vectorsvg />
+        درباره ما
+      </div>
       <Header />
-      <div className="mt-[188px]">
+      <div className="mt-[51px]">
         <AboutSvg />
       </div>
       <div className="w-[637px] mx-auto container flex flex-col justify-center items-end ">

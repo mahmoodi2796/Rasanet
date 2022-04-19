@@ -11,7 +11,7 @@ const IndexPage: NextPage = () => {
           href="https://fonts.googleapis.com/css2?family=Inter&display=optional"
           rel="stylesheet"
         />
-        <title>Rasanet</title>
+        <title>رسانت</title>
       </Head>
       <div className="w-full h-full">
         <Landing />

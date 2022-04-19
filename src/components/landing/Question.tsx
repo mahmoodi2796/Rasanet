@@ -23,7 +23,7 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[20px] flex justify-between flex-row-reverse "
+          className="text-[18px] flex justify-between flex-row-reverse "
           dir="rtl"
         >
           <div className={`border border-black rounded-md duration-300  `}>
@@ -37,7 +37,7 @@ function question() {
               <Arow />
             </div>
           </div>
-          <div className="pr-[5px] pt-[3px]">
+          <div className="pr-[5px] pt-[5px]">
             {" "}
             رسانت چه خدماتی ارائه می دهد؟
           </div>
@@ -57,7 +57,7 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[20px] flex justify-between flex-row-reverse"
+          className="text-[18px] flex justify-between flex-row-reverse"
           dir="rtl"
         >
           <div className={`border border-black rounded-md duration-300 `}>
@@ -72,7 +72,7 @@ function question() {
             </div>
           </div>
 
-          <div className="pr-[5px] pt-[3px]">مزایای رسانت چیست؟</div>
+          <div className="pr-[5px] pt-[5px]">مزایای رسانت چیست؟</div>
         </div>
 
         <div dir="rtl" className="mt-[10px]  text-[#737789]">
@@ -89,7 +89,7 @@ function question() {
         }}
       >
         <div
-          className="text-[12px] md:text-[20px] flex justify-between flex-row-reverse"
+          className="text-[18px] flex justify-between flex-row-reverse"
           dir="rtl"
         >
           <div className={`border border-black rounded-md duration-300 `}>
@@ -104,7 +104,7 @@ function question() {
             </div>
           </div>
 
-          <div className="pr-[5px] pt-[3px]">
+          <div className="pr-[5px] pt-[5px]">
             فرایند سفارش از رسانت چگونه است؟
           </div>
         </div>

@@ -43,7 +43,7 @@ function MainTwo() {
     scroll >= 236 && setreqtangleeghit(true);
   }, [scroll]);
   return (
-    <div className="w-full h-full mt-[400px] flex flex-col items-center">
+    <div className="w-full h-full mt-[200px] flex flex-col items-center">
       {console.log(scroll)}
       <div className="text-[26px]">برخی از خدمات رسانت</div>
       <div className="text-[18px] mt-[12px] text-[#545454]">
